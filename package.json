@@ -1,0 +1,22 @@
+{
+  "name": "ftp-pusher",
+  "version": "1.0.0",
+  "description": "Deploy git-tracked changes to a remote host over FTP/FTPS",
+  "private": true,
+  "bin": {
+    "ftp-pusher": "./bin/ftp-pusher.js"
+  },
+  "main": "src/index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "basic-ftp": "^5.0.5",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "micromatch": "^4.0.8",
+    "picocolors": "^1.1.1"
+  }
+}
