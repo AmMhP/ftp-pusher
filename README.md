@@ -33,7 +33,25 @@ on top of whatever you list in the config's own `ignore` patterns.
 
 ## Install
 
+**From npm (recommended):**
+
 ```sh
+npm install -g ftp-pusher
+```
+
+This puts the `ftp-pusher` command on your `PATH` globally. If you'd rather
+not install it globally, run it per-project instead:
+
+```sh
+npm install --save-dev ftp-pusher
+npx ftp-pusher init
+```
+
+**From source** (for contributing or trying unreleased changes):
+
+```sh
+git clone https://github.com/AmMhP/ftp-pusher.git
+cd ftp-pusher
 npm install
 npm link   # optional: makes the `ftp-pusher` command available globally
 ```
