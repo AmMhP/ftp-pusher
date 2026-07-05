@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Deploy git-tracked changes to a remote host over FTP/FTPS",
   "bin": {
-    "ftp-pusher": "./bin/ftp-pusher.js"
+    "ftp-pusher": "bin/ftp-pusher.js"
   },
   "license": "MIT",
   "author": "AmMhP <amirdashti264@gmail.com>",
